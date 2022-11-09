@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/accounts">
+        <menu>
+            <item
+                android:title="@string/user_name"
+                android:id="@+id/username1"
+                android:icon="@drawable/ic_icon" />
+            <item
+                android:title="@string/cat_name"
+                android:id="@+id/username2"
+                android:icon="@drawable/ic_icon" />
+            <item
+                android:title="@string/add_account"
+                android:id="@+id/addAccount"
+                android:icon="@drawable/ic_add" />
+        </menu>
+    </item>
+
+    <item android:title="@string/parameters">
+        <menu>
+            <item
+                android:title="@string/new_group"
+                android:id="@+id/newGroupNv"
+                android:icon="@drawable/ic_group" />
+
+            <item
+                android:title="@string/contacts"
+                android:id="@+id/contactsNv"
+                android:icon="@drawable/ic_contacts" />
+
+            <item
+                android:title="@string/calls"
+                android:id="@+id/callsNv"
+                android:icon="@drawable/ic_call" />
+
+            <item
+                android:title="@string/settings"
+                android:id="@+id/settingsNv"
+                android:icon="@drawable/ic_settings" />
+        </menu>
+    </item>
+
+    <item android:title="@string/other_nv">
+        <menu>
+            <item
+                android:title="@string/invite_friends"
+                android:id="@+id/inviteFriendsNv"
+                android:icon="@drawable/ic_invite" />
+
+            <item
+                android:title="@string/nothing_app_features"
+                android:id="@+id/nothingAppFeaturesNv"
+                android:icon="@drawable/ic_features" />
+        </menu>
+    </item>
+
+</menu>
