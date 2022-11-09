@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NavigationViewTemp</string>
+    <string name="app_name">NavigationView</string>
     <string name="user_name">User Name</string>
     <string name="cat_name">Cat Name</string>
     <string name="add_account">Add Account</string>
